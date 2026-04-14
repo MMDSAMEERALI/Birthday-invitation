@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ad375c;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.invite-wrapper {
+    background: #ffffff;
+    width: 92%;
+    max-width: 440px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.main-body {
+    padding: 35px 25px;
+}
+
+.sub-text {
+    font-weight: 300;
+    color: #777;
+    font-size: 0.95rem;
+    display: block;
+}
+
+.guest-name {
+    font-family: 'Pacifico', cursive;
+    color: #c2185b;
+    font-size: 2.4rem;
+    margin: 12px 0;
+}
+
+.tagline {
+    font-style: italic;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+}
+
+.details-holder {
+    background: #fffafa;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1.5px dashed #f06292;
+}
+
+.row {
+    margin: 12px 0;
+}
+
+.label {
+    color: #c2185b;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+
+.text-info {
+    margin: 0;
+    color: #444;
+    font-size: 0.95rem;
+}
+
+.closing {
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+@media (max-width: 500px) {
+    .guest-name {
+        font-size: 1.9rem;
+    }
+    .banner img {
+        height: 250px;
+    }
+    .main-body {
+        padding: 25px 15px;
+    }
+}
